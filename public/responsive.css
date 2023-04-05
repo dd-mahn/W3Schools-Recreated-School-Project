@@ -1,0 +1,385 @@
+@media (min-width: 1024px) {
+    .navbar_menu-btn{
+        display:none;
+    }
+}
+/* IPAD AIR */
+@media (min-width: 736px) and (max-width:1180px){
+    .header{
+        overflow: hidden;
+    }
+    .slider{
+        overflow: hidden;
+    }
+    .footer{
+        overflow: hidden;
+    }
+    .res_phone-hidden{
+        display: none;
+    }
+    .demo_code{
+        display: block !important;
+    }
+    /* NAVBAR */
+    .navbar_menu-btn{
+        align-items: center;
+        display: flex;
+        padding: 24px 32px;
+    }
+    .navbar_menu-text{
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    .navbar_right-btn--login{
+        margin-right: -55%;
+    }
+    /* DEMO */
+    .demo_language{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .demo_btn{
+        width: 45%;
+    }
+    .demo_code{
+        margin: 0px 25px !important;
+        width: 95%;
+    }
+    .demo_code-content--btn{
+        width: 25%;
+    }
+    /* OTHER */
+    .fp_language{
+        width: 100%;
+        margin: 16px 24px;
+    }
+    .sp_options-big{
+        width: 100% !important;
+    }
+    .sp_options{
+        margin: 16px 24px;
+        width: 38%;
+    }
+    /* CODE EDITOR */
+    .slider_codeeditor{
+        padding: 30px 16px 85px;
+    }
+    .codeeditor_monitor{
+        width: 100%;
+    }
+    .codeeditor_btn{
+        margin:16px 0px 0px !important;
+    }
+    /* W3SPACES */
+    .w3spaces_tutorial{
+        display: none;
+    }
+    .w3spaces_show{
+        width: 100%;
+    }
+    .w3spaces_btn{
+        width: 35%;
+    }
+    /* MY LEARNING */
+    .slider_mylearning{
+        padding: 65px 16px 70px;
+    }
+    .mylearning_img{
+        width: 100%;
+    }
+    .mylearning_btn{
+        width: 35%;
+    }
+    /* CODEGAME */
+    .codegame_btn{
+        width: 30%;
+    }
+    /* HOW TO */
+    .slider_howto{
+        padding:85px 24px 100px;
+    }
+    .howto_monitor{
+        width: 100% !important;
+    }
+    .howto_monitor-screen{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .howto_monitor-case{
+        width: 5.5%;
+        top:94.85%
+    }
+    /* FOOTER */
+    .footer_nav{
+        flex-direction: column;
+    }
+    .nav_left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav_left-row--block{
+        justify-content: center;
+        width: 54.5%;
+
+    }
+    .nav_left-main--ops{
+        margin:0px 2px 16px !important;
+        width:50%;
+    }
+    .nav_left-ops{
+        margin:0px 25px 16px;
+        font-size: 16px;
+        text-align: center;
+        width: 50%;
+    }
+    .nav_right{
+        justify-content: center;
+    }
+}
+/* IPHONE 6/7/8PLUS */
+@media (max-width:735px){
+    .header{
+        overflow: hidden;
+    }
+    .slider{
+        overflow: hidden;
+    }
+    .footer{
+        overflow: hidden;
+    }
+    .res_phone-hidden{
+        display: none;
+    }
+    /* NAVBAR */
+    .navbar_menu-btn{
+        align-items: center;
+        display: flex;
+        padding: 24px 32px;
+    }
+    .navbar_menu-text{
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    .navbar_right-btn--login{
+        margin-right: -32px;
+    }
+    /* INTRO */
+    .header_intro{
+        width:100%;
+    }
+    .intro_title{
+        font-size: 50px !important;
+    }
+    .intro_desc{
+        font-size: 21px !important;
+        padding:0px 35px;
+        text-align: center;
+    }
+    .intro_search-bar{
+        width: 85%;
+    }
+    /* DEMO */
+    .demo_language{
+        width: 100%;
+        height: auto;
+        padding:32px 0px;
+    }
+    .demo_info{
+        width: 100%;
+        padding:12px !important;
+    }
+    .demo_info-name{
+        font-size: 60px;
+    }
+    .demo_info-desc{
+        font-size: 19px;
+    }
+    .demo_btn{
+        width: 45%;
+    }
+    /* OTHER */
+    .fp_language{
+        margin: 8px 12px !important;
+        width: 100%;
+    }
+    .fp_language-desc{
+        text-align: center;
+    }
+    .fp_language-btn{
+        width: 45%;
+    }
+    .sp_options{
+        margin: 8px 12px !important;
+        width: 100%;
+    }
+    /* CODEEDITOR */
+    .slider_codeeditor{
+        padding: 30px 16px 85px;
+    }
+    .codeeditor_title{
+        font-size: 60px;
+    }
+    .codeeditor_desc{
+        text-align: center;
+    }
+    .codeeditor_monitor{
+        width: 100%;
+    }
+    .codeeditor_btn{
+        width: 91.5%;
+        margin:24px 0px 0px !important;
+    }
+    /* W3Spaces */
+    .w3spaces_title{
+        font-size: 60px;
+        text-align: center;
+    }
+    .w3spaces_desc{
+        text-align: center;
+    }
+    .w3spaces_show{
+        width: 100%;
+    }
+    .w3spaces_tutorial{
+        display: none;
+    }
+    .w3spaces_btn{
+        margin-top:-20px;
+        width: 75%;
+    }
+    /* MYLEARNING */
+    .slider_mylearning{
+        padding:65px 16px 70px;
+    }
+    .mylearning_title{
+        font-size: 60px;
+    }
+    .mylearning_desc{
+        text-align: center;
+    }
+    .mylearning_img{
+        width: 100%;
+    }
+    .mylearning_btn{
+        width: 70%;
+    }
+    /* PRO */
+    .slider_pro{
+        padding:78px 15px 96px;
+    }
+    .pro_title{
+        font-size: 60px;
+        text-align: center;
+    }
+    /* COLORPICKER */
+    .colorpicker_title{
+        font-size: 60px;
+    }
+    /* CODEGAME */
+    .slider_codegame{
+        padding:64px 12px;
+    }
+    .codegame_title{
+        font-size: 60px;
+    }
+    .codegame_desc{
+        font-size: 25px;
+        text-align: center;
+    }
+    /* EXNQUIZ */
+    .slider_exnquiz{
+        padding:64px 12px;
+    }
+    .exnquiz_title{
+        font-size: 60px;
+        text-align: center;
+    }
+    .exnquiz_desc{
+        margin-top:20px;
+    }
+    .exnquiz_btn-block{
+        flex-direction: column;
+
+    }
+    .exnquiz_btn{
+        width: 65%;
+        align-self: center !important;
+    }
+    /* WEBTEMPLATE */
+    .slider_webtemplate{
+        padding:64px 24px 64px;
+    }
+    .webtemplate_title{
+        font-size: 60px;
+        text-align: center;
+    }
+    .webtemplate_desc{
+        text-align: center;
+    }
+    .webtemplate_img{
+        width: 100%;
+    }
+    .webtemplate_btn{
+        width: 90%;
+    }
+    /* CAREER */
+    .career_title{
+        font-size: 55px;
+    }
+    .career_desc{
+        font-size: 40px;
+    }
+    .career_btn{
+        width: 63%;
+        border-radius: 35px;
+    }
+    /* HOWTO */
+    .slider_howto{
+        padding: 32px 24px 90px;
+    }
+    .howto_title{
+        font-size: 60px;
+        text-align: center;
+    }
+    .howto_desc{
+        text-align: center;
+    }
+    .howto_monitor{
+        width: 100% !important;
+    }
+    .howto_monitor-screen{
+        height: 180px;
+    }
+    .howto_btn{
+        width: 92%;
+    }
+    .howto_monitor-case{
+        width: 12%;
+        top:94.14%;
+    }
+    /* FOOTER */
+    .footer_nav{
+        flex-direction: column;
+    }
+    .nav_left{
+        flex-direction: column;
+    }
+    .nav_left-row--block{
+        justify-content: center;
+
+    }
+    .nav_left-main--ops{
+        margin:0px 2px 16px !important;
+        width: 20%;
+    }
+    .nav_left-ops{
+        margin:0px 25px 16px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .nav_right{
+        justify-content: center;
+    }
+}
